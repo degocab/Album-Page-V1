@@ -1,2 +1,5 @@
-h1{color: silver}
+h1{color: darkslategrey; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+h2{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
 td{border: 1px solid black;}
+div{background-image: url("images/albumcover.jpg")no-repeat; background-position: center;}
+li{font-style: italic}
