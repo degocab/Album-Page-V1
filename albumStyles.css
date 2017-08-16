@@ -1,5 +1,10 @@
 h1{color: darkslategrey; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 h2{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
-td{border: 1px solid black;}
+td{border: 1px solid black; font-style: italic; text-align: center; background-color: lightcyan}
 div{background-image: url("images/albumcover.jpg")no-repeat; background-position: center;}
 li{font-style: italic}
+a:link{text-decoration: none;}
+a:visited{text-decoration: none;}
+a:hover{text-decoration: underline; background-color: lime;}
+a:active{text-decoration: none;}
+table, th, td{border-collapse: collapse}
