@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Altered State</title>
-
-        <link href="albumStyles.css" rel="stylesheet" type="text/css"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="albumStyles.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
     </head>
     <body>
-        <center>
-        <div >
-            <img src="images/albumcover.jpg">
+        <div>
+            <center><img id="cover" src="images/albumcover.jpg" class="img-circle"></center>
         </div>
-        </center>
         <center>
             <h1>Altered State</h1>
                 <h2><a href="http://www.tesseractband.co.uk">Tesseract</a></h2>
@@ -29,45 +32,46 @@
             <li>Amos Williams - Bass</li>
             <li>Acle Kahney - Producer</li>
         </ul>
+    
+        <div class="col">
+            <div class="col-12 col-md-12 col-lg-12">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                            <center>
+                                <h2>Tracks</h2>
+                            </center>
+                            <thead>
+                                <tr bgcolor="lightgrey">
+                                    <th>Track #</th>
+                                    <th>Track Title</th>
+                                    <th>Track Length</th>
+                                </tr> 
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Of Mind</td>
+                                    <td>14:16</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Of Mind</td>
+                                    <td>14:40</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Of Reality</td>
+                                    <td>9:49</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Of Energy</td>
+                                    <td>11:56</td>
+                                </tr>
+                            </tbody>
+                        </table>        
+                </div>      
+            </div>        
+        </div>  
     </body>
-    <center>
-        <table border="1"; width="100%">
-            <!--<style>
-                table, th, td{
-                    border: 1px solid black;
-                }
-            </style>-->
-            <center>
-                <h2>Tracks</h2>
-            </center>
-            <thead>
-                <tr bgcolor="lightgrey">
-                    <th>Track #</th>
-                    <th>Track Title</th>
-                    <th>Track Length</th>
-                </tr> 
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Of Mind</td>
-                    <td>14:16</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Of Mind</td>
-                    <td>14:40</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Of Reality</td>
-                    <td>9:49</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Of Energy</td>
-                    <td>11:56</td>
-                </tr>
-            </tbody>
-        </table>
 </html>
